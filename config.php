@@ -1,0 +1,36 @@
+<?php
+	$dbServer = 'localhost';
+	$dbUsername = 'root';
+	$dbPassword = '';
+	$dbDatabase = 'OCMS';
+
+	$adminConfig = array(
+		'adminUsername' => "projectnotes",
+		'adminPassword' => "a5208b2a6f9814e4d0a989353a275af6",
+		'notifyAdminNewMembers' => "0",
+		'defaultSignUp' => "1",
+		'anonymousGroup' => "anonymous",
+		'anonymousMember' => "guest",
+		'groupsPerPage' => "10",
+		'membersPerPage' => "10",
+		'recordsPerPage' => "10",
+		'custom1' => "Full Name",
+		'custom2' => "Address",
+		'custom3' => "City",
+		'custom4' => "State",
+		'MySQLDateFormat' => "%m/%d/%Y",
+		'PHPDateFormat' => "n/j/Y",
+		'PHPDateTimeFormat' => "m/d/Y, h:i a",
+		'senderName' => "Membership management",
+		'senderEmail' => "projectnotes08@gmail.com",
+		'approvalSubject' => "Your membership is now approved",
+		'approvalMessage' => "Dear member,\r\n\r\nYour membership is now approved by the admin. You can log in to your account here:\r\nhttp://localhost/online-clinic-management-system-2.2\r\n\r\nRegards,\r\nAdmin",
+		'hide_twitter_feed' => "",
+		'maintenance_mode_message' => "<b>Our website is in maintenance mode</b><br>\r\nWe will be back in some moments. Thanks.",
+		'mail_function' => "mail",
+		'smtp_server' => "",
+		'smtp_encryption' => "",
+		'smtp_port' => "25",
+		'smtp_user' => "",
+		'smtp_pass' => ""
+	);
